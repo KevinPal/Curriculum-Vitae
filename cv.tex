@@ -1,0 +1,43 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{multicol}
+\usepackage{vwcol}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage[nodayofweek, level]{datetime}
+\usepackage{subfiles}
+\titleformat{\section}{\vspace{-2mm}\huge\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\large\bfseries}{}{0em}{}
+\titleformat{\subsubsection}[runin]{}{}{0em}{}[ --- ]
+\newcommand\textbox[1]{%
+	\parbox{.333\textwidth}{#1}%
+}
+\renewcommand{\maketitle}{
+	\begin{center}
+		\noindent\textbox{\hfill}\textbox{\hfil\bfseries\huge Kevin Palani\hfil}\textbox{\hfill \today}
+		{kevinrp2@illinois.edu --- (408) 893-0826 --- github.com/KevinPal}
+	\end{center} }
+\pagenumbering{gobble}
+\begin{document}
+\maketitle
+\section{Technical Skills}
+\subsection{Programming Languages}
+Java, Python, GoLang, C, PHP, MIPS
+\vspace*{-4mm}
+\subsection{Platforms}
+Windows, CentOS, Android, Arduino, Raspberry Pi, Nvidia Jetson, RoboRio
+\vspace*{-4mm}
+\subsection{Tools}
+Microsoft Office, Adobe Photoshop, Git, Unity
+\vspace*{-4mm}
+\section{Work History}
+\subsection{Nebbiolo Technologies - Software Engineering Intern\null\hfill 2018 --- San Jose, CA}
+Designed an developed various features, including distributed computing, high availability data, and data visualization, while learning about corporation level programming workflows, networking topics, Unix, and proper design and architecture.
+By working in a professional environment, I also developed strong teamwork and communication skills.
+\vspace*{-2mm}
+\section{Education}
+University of Illinois at Urbana-Champaign\null\hfill(2018 - \emph{Expected} May 2022)\\
+		   \emph{Bachelor of Science, Computer Engineering}
+\end{document}
